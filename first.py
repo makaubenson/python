@@ -1,1 +1,6 @@
-print("Hello World this is python")
+CAT1= 30
+CATT2 = 25
+EXAM = 50
+
+
+print(type(CAT1))
