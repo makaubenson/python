@@ -9,3 +9,6 @@ print(type(CAT1))
 age = 11
 Age = float(age)
 print(Age)
+#user input
+name = input("Whats your name: ?")
+print('welcome ',name)
