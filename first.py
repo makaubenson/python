@@ -11,4 +11,4 @@ Age = float(age)
 print(Age)
 #user input
 name = input("Whats your name: ?")
-print('welcome ',name)
+print('welcome',name)
