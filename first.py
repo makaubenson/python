@@ -8,7 +8,15 @@ print(type(CAT1))
 #string conversions
 age = 11
 Age = float(age)
-print(Age)
+# print(Age)
 #user input
-name = input("Whats your name: ?")
-print('welcome',name)
+# name = input("Whats your name: ?")
+# print('welcome',name)
+#conditional statements
+x = input("enter a number")
+X =int(x)
+if X < 5:
+    print("smaller than 5")
+if X  > 5:
+    print("greater than 5")
+print(X)
