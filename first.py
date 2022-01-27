@@ -21,17 +21,38 @@
 #     print("greater than 5")
 # print(X)
 # try / except
-astr = 'hello bob'
-try:
-    istr = int(astr)
-except Exception as e:
-    warning ="something went wrong"
-    print(warning)
+# astr = 'hello bob'
+# try:
+#     istr = int(astr)
+# except Exception as e:
+#     warning ="something went wrong"
+#     print(warning)
+
+# astr = '123'
+# try:
+#     istr = int(astr)
+# except:
+#     istr = -1
+# print('second', istr)
 
 
-astr = '123'
-try:
-    istr = int(astr)
-except:
-    istr = -1
-print('second', istr)
+#  functions in python
+# x = 5
+# def print_lyrics():
+#     print("I am benson")
+#     print('benson the good guy')
+    
+# print('youuuuh')
+# print_lyrics()
+# x= x+2
+# print(x)
+lang =input("enter language initials: ")
+def greet(lang):
+    if lang == 'es':
+        print("Holla")
+    elif lang== 'fr':
+        print('Bonjor')
+    else:
+        print("hello")
+        
+greet(lang)
