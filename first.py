@@ -74,8 +74,16 @@
 
 
 # loops and iterations
-n = 500
-while n > 0:
-    print(n)
-    n = n-1
-    # print(n)
+# n = 500
+# while n > 0:
+#     print(n)
+#     n = n-1
+#     # print(n)
+    
+# breaking out of a loop
+while True:
+    line = input('> ')
+    if line == 'done':
+        break
+    print(line)
+print('Done')
