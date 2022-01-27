@@ -60,14 +60,22 @@
 
 #Return statement
 # python doesnt execute the next line after meeting return function
-x1 = int(input("Enter the first value: "))
-y2= int(input("Enter the second value: "))
-def sum(x,y):
-    if x > y :
-        return 'x is larger'
-    elif y > x:
-        return 'y is greater'
-    else:
-        return 'i am confused'
+# x1 = int(input("Enter the first value: "))
+# y2= int(input("Enter the second value: "))
+# def sum(x,y):
+#     if x > y :
+#         return 'x is larger'
+#     elif y > x:
+#         return 'y is greater'
+#     else:
+#         return 'i am confused'
     
-print(sum(x1,y2))
+# print(sum(x1,y2))
+
+
+# loops and iterations
+n = 500
+while n > 0:
+    print(n)
+    n = n-1
+    # print(n)
