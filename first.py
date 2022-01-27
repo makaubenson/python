@@ -46,13 +46,28 @@
 # print_lyrics()
 # x= x+2
 # print(x)
-lang =input("enter language initials: ")
-def greet(lang):
-    if lang == 'es':
-        print("Holla")
-    elif lang== 'fr':
-        print('Bonjor')
-    else:
-        print("hello")
+# lang =input("enter language initials: ")
+# def greet(lang):
+#     if lang == 'es':
+#         print("Holla")
+#     elif lang== 'fr':
+#         print('Bonjor')
+#     else:
+#         print("hello")
         
-greet(lang)
+# greet(lang)
+
+
+#Return statement
+# python doesnt execute the next line after meeting return function
+x1 = int(input("Enter the first value: "))
+y2= int(input("Enter the second value: "))
+def sum(x,y):
+    if x > y :
+        return 'x is larger'
+    elif y > x:
+        return 'y is greater'
+    else:
+        return 'i am confused'
+    
+print(sum(x1,y2))
