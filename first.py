@@ -81,9 +81,19 @@
 #     # print(n)
     
 # breaking out of a loop
+# while True:
+#     line = input('> ')
+#     if line == 'done':
+#         break
+#     print(line)
+# print('Done')
+
+# continue statement
 while True:
-    line = input('> ')
+    line = input("> ")
+    if line[0] == '#':
+        continue
     if line == 'done':
         break
     print(line)
-print('Done')
+print("Very Done")
