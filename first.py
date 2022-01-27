@@ -73,13 +73,17 @@
 # print(sum(x1,y2))
 
 
-# loops and iterations
+# Loops and Iterations
+# Indefinite loops.
+# They are called indefinite since they run until some
+# logical condition becomes false.
+
 # n = 500
 # while n > 0:
 #     print(n)
 #     n = n-1
 #     # print(n)
-    
+
 # breaking out of a loop
 # while True:
 #     line = input('> ')
@@ -89,11 +93,14 @@
 # print('Done')
 
 # continue statement
-while True:
-    line = input("> ")
-    if line[0] == '#':
-        continue
-    if line == 'done':
-        break
-    print(line)
-print("Very Done")
+# while True:
+#     line = input("> ")
+#     if line[0] == '#':
+#         continue
+#     if line == 'done':
+#         break
+#     print(line)
+# print("Very Done")
+
+
+# Definite Loops
