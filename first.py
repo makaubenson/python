@@ -104,3 +104,8 @@
 
 
 # Definite Loops
+# for loop
+friends = ['Benson','Glen','Steve','Eve']
+for friend in friends:
+    print("Hello ", friend)
+print("Hellow World")
