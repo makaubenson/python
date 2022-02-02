@@ -105,7 +105,17 @@
 
 # Definite Loops
 # for loop
-friends = ['Benson','Glen','Steve','Eve']
-for friend in friends:
-    print("Hello ", friend)
-print("Hellow World")
+# friends = ['Benson','Glen','Steve','Eve']
+# for friend in friends:
+#     print("Hello ", friend)
+# print("Hellow World")
+
+
+# find the largest number
+num = 0
+print("Before: ",num)
+for max_num in [1, 10,75,75,56,299,345,445]:
+    if max_num > num:
+            num = max_num
+            # print("The maximum number is",num)
+print("After The max number is: ", num)
