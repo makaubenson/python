@@ -188,6 +188,27 @@
 
 
 #convert strings to lower case
-name = "Benson Makau"
-lower_case_name = name.lower()
-print(lower_case_name)
+# name = "Benson Makau"
+# lower_case_name = name.lower()
+# print(lower_case_name)
+
+#convert strings to upper case
+# name = "Benson Makau"
+# upper_case_name = name.upper()
+# print(upper_case_name)
+
+
+# stuff = "Hello world"
+# # new= type(stuff)
+# new = dir(stuff)
+# print(new)
+
+# searching a string 
+# fruit = "banana"
+# pos = fruit.find("na")
+# print(pos)
+
+# search and replace
+name = "benson makau"
+new_name = name.replace('makau', 'mark')
+print(new_name )
