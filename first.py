@@ -176,7 +176,12 @@
 # print (name[:]) # starts from the first one to the last
 
 # string concatinations\
-fname = "Benson"
-lname ="Makau"
-name = fname +" "+ lname
-print(name)
+# fname = "Benson"
+# lname ="Makau"
+# name = fname +" "+ lname
+# print(name)
+
+# Using in as a logical operator
+fruit = "Mango"
+if "a" in fruit:
+    print(fruit +" has letter a in its spelling")
