@@ -171,3 +171,6 @@
 #slicing strings
 name = "Benson Makau"
 print (name[0:4]) #prints the first character up to the fourth but not including the 4
+print (name[:4]) #starts from the first one
+print (name[2:]) #starts from the second up to the last
+print (name[:]) # starts from the first one to the last
