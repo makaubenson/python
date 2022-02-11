@@ -148,7 +148,15 @@
 # print("The smallest value is :", smallest)
 
 # Strings
-# len function gives us the length of a string
-fruit = 'banana'
-fruit_length = len(fruit)
-print("The length of this string is:",fruit_length, "characters")
+# # len function gives us the length of a string
+# fruit = 'banana'
+# fruit_length = len(fruit)
+# print("The length of this string is:",fruit_length, "characters")
+
+# looping through strings
+fruit = "banana"
+index = 0
+while index < len(fruit):
+    letter = fruit[index]
+    print(index, letter)
+    index = index +1
