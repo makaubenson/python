@@ -112,10 +112,24 @@
 
 
 # find the largest number
-num = 0
-print("Before: ",num)
-for max_num in [1, 10,75,75,56,299,345,445]:
-    if max_num > num:
-            num = max_num
-            # print("The maximum number is",num)
-print("After The max number is: ", num)
+# num = 0
+# print("Before: ",num)
+# for max_num in [1, 10,75,75,56,299,345,445]:
+#     if max_num > num:
+#             num = max_num
+#             # print("The maximum number is",num)
+# print("After The max number is: ", num)
+
+# # counting in python
+# zork = 0
+# for num in [1,24,25,74,52,62,41,81,23,74,52,95]:
+#     zork = zork +1
+#     print(zork, num)
+# print("After", zork)
+# summing in a loop in python
+zork = 0
+print('Before', zork)
+for num in [1,24,25,74,52,62,41,81,23,79,52,95]:
+    zork = zork + num
+    print(zork, num)
+print("After", zork)
