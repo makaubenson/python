@@ -127,9 +127,22 @@
 #     print(zork, num)
 # print("After", zork)
 # summing in a loop in python
-zork = 0
-print('Before', zork)
-for num in [1,24,25,74,52,62,41,81,23,79,52,95]:
-    zork = zork + num
-    print(zork, num)
-print("After", zork)
+# zork = 0
+# print('Before', zork)
+# for num in [1,24,25,74,52,62,41,81,23,79,52,95]:
+#     zork = zork + num
+#     print(zork, num)
+# print("After", zork)
+
+# finding the smallest number
+smallest = None
+print('Before')
+for value in [1,24,25,74,52,62,41,81,23,79,52,95]:
+    if smallest is None:
+        smallest = value
+    elif value < smallest:
+        smallest = value
+    print(smallest, value)
+    
+
+print("The smallest value is :", smallest)
