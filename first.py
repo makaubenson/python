@@ -209,6 +209,16 @@
 # print(pos)
 
 # search and replace
-name = "benson makau"
-new_name = name.replace('makau', 'mark')
-print(new_name )
+# name = "benson makau"
+# new_name = name.replace('makau', 'mark')
+# print(new_name )
+
+# stripping white space
+greeting ="   Hello Genius  "
+print("no stripping functinality "+greeting)
+left_strip = greeting.lstrip()
+print("left stripping functinality "+ left_strip)
+right_strip = greeting.rstrip()
+print("right stripping functinality "+ right_strip)
+full_strip = greeting.strip()
+print("left and right stripping functinality "+ full_strip)
