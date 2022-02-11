@@ -163,7 +163,11 @@
 
 
 # looping through strings version 2
-fruit = "banana"
-for letter in fruit:
-    print(letter)
+# fruit = "banana"
+# for letter in fruit:
+#     print(letter)
 
+
+#slicing strings
+name = "Benson Makau"
+print (name[0:4]) #prints the first character up to the fourth but not including the 4
