@@ -182,6 +182,12 @@
 # print(name)
 
 # Using in as a logical operator
-fruit = "Mango"
-if "a" in fruit:
-    print(fruit +" has letter a in its spelling")
+# fruit = "Mango"
+# if "a" in fruit:
+#     print(fruit +" has letter a in its spelling")
+
+
+#convert strings to lower case
+name = "Benson Makau"
+lower_case_name = name.lower()
+print(lower_case_name)
