@@ -5,6 +5,7 @@
 # E_CAT = (CAT1 + CATT2)/2
 # Checking what datatype is CAT1
 # print(type(CAT1))
+
 #string conversions
 # age = 11
 # Age = float(age)
@@ -12,6 +13,7 @@
 #user input
 # name = input("Whats your name: ?")
 # print('welcome',name)
+
 #conditional statements
 # x = input("enter a number")
 # X =int(x)
@@ -134,15 +136,19 @@
 #     print(zork, num)
 # print("After", zork)
 
-# finding the smallest number
-smallest = None
-print('Before')
-for value in [1,24,25,74,52,62,41,81,23,79,52,95]:
-    if smallest is None:
-        smallest = value
-    elif value < smallest:
-        smallest = value
-    print(smallest, value)
-    
+# # finding the smallest number
+# smallest = None
+# print('Before')
+# for value in [1,24,25,74,52,62,41,81,23,79,52,95]:
+#     if smallest is None:
+#         smallest = value
+#     elif value < smallest:
+#         smallest = value
+#     print(smallest, value)
+# print("The smallest value is :", smallest)
 
-print("The smallest value is :", smallest)
+# Strings
+# len function gives us the length of a string
+fruit = 'banana'
+fruit_length = len(fruit)
+print("The length of this string is:",fruit_length, "characters")
