@@ -154,9 +154,16 @@
 # print("The length of this string is:",fruit_length, "characters")
 
 # looping through strings
+# fruit = "banana"
+# index = 0
+# while index < len(fruit):
+#     letter = fruit[index]
+#     print(index, letter)
+#     index = index +1
+
+
+# looping through strings version 2
 fruit = "banana"
-index = 0
-while index < len(fruit):
-    letter = fruit[index]
-    print(index, letter)
-    index = index +1
+for letter in fruit:
+    print(letter)
+
