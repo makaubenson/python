@@ -344,6 +344,11 @@
 # print(stuff)
 
 #IS SOMETHING IN THE LIST
-some = [1,9,21,10,16]
-print(9 in some)
-print(2 not in some)
+# some = [1,9,21,10,16]
+# print(9 in some)
+# print(2 not in some)print(9 in some)
+
+#SORTING LISTS
+friends = ['Joseph','Sally','Glenn']
+friends.sort()
+print(friends)
