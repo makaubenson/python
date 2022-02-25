@@ -230,8 +230,15 @@
 # print(startswith)
 
 #READING FILES
+# fhand = open('mbox.txt')
+# count = 0
+# for line in fhand:
+#     count = count + 1
+# print('Line Count:', count)
+
+#READING THE WHOLE FILE
 fhand = open('mbox.txt')
-count = 0
-for line in fhand:
-    count = count + 1
-print('Line Count:', count)
+inp = fhand.read()
+print(len(inp))
+#printing the first 20 characters
+print(inp[:20])#read first 20 chars but not including the 20th
