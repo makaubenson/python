@@ -393,11 +393,19 @@
 #         continue
 #     print(wds[2])
 
-han = open('mbox.txt')
-for line in han:
-    line = line.rstrip()
-    wds = line.split()
-#guardian in a compound statmenet
-    if len(wds) < 3 or wds[0] != 'From':
-        continue
-    print(wds[2])
+# han = open('mbox.txt')
+# for line in han:
+#     line = line.rstrip()
+#     wds = line.split()
+# #guardian in a compound statement
+#     if len(wds) < 3 or wds[0] != 'From':
+#         continue
+#     print(wds[2])
+
+#DICTIONARIES
+purse = dict()
+purse['money']=12
+purse['candy']=3
+purse['tissues']=75
+print(purse)
+
