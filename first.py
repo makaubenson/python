@@ -382,13 +382,22 @@
 #         continue
 #     print(wds[2])
 
+# han = open('mbox.txt')
+# for line in han:
+#     line = line.rstrip()
+#     wds = line.split()
+#     #Guardian a bit stronger
+#     if len(wds) < 3:
+#         continue
+#     if wds[0] != 'From':
+#         continue
+#     print(wds[2])
+
 han = open('mbox.txt')
 for line in han:
     line = line.rstrip()
     wds = line.split()
-    #Guardian a bit stronger
-    if len(wds) < 3:
-        continue
-    if wds[0] != 'From':
+#guardian in a compound statmenet
+    if len(wds) < 3 or wds[0] != 'From':
         continue
     print(wds[2])
