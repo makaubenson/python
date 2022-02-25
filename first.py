@@ -329,3 +329,6 @@ a= [1,2,3]
 b = [4,5,6]
 c = a + b
 print(c)
+#SLICING LISTS
+t =[9,41,12,3,74,15]
+t[1:3]#output[41,12]
