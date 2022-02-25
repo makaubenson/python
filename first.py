@@ -244,7 +244,14 @@
 # print(inp[:20])#read first 20 chars but not including the 20th
 
 #SEARCHING THROUGH A FILE
+# fhand = open('mbox.txt')
+# for line in fhand:
+#     if line.startswith("From: "):
+#         print(line)
+
+#SEARCHING THROUGH A FILE(FIXED)
 fhand = open('mbox.txt')
 for line in fhand:
+    line = line.rstrip()
     if line.startswith("From: "):
         print(line)
