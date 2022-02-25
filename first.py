@@ -224,7 +224,14 @@
 # print("left and right stripping functinality "+ full_strip)
 
 # prefixes
-line = "Please have a nice day"
+# line = "Please have a nice day"
 # startswith = line.startswith('Please')
-startswith = line.startswith('P')
-print(startswith)
+# startswith = line.startswith('P')
+# print(startswith)
+
+#READING FILES
+fhand = open('mbox.txt')
+count = 0
+for line in fhand:
+    count = count + 1
+print('Line Count:', count)
