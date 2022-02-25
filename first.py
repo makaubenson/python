@@ -297,9 +297,13 @@
 #     print("There were", count, 'subject lines in', fname)
 
 #LISTS
-mylist = [1,15,25,78,95]
+# mylist = [1,15,25,78,95]
 
 #LOOPING THROUGH A LIST
-for i in mylist:
-    print(i)
-print("Blastoff")
+# for i in mylist:
+#     print(i)
+# print("Blastoff")
+
+#READ VALUES IN A LIST
+friends = ['Joseph','Glenn','Sally']
+print(friends[1])#output :Glenn
