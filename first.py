@@ -257,9 +257,17 @@
 #         print(line)
 
 # SKIPPING WITH CONTINUE
+# fhand = open('mbox.txt')
+# for line in fhand:
+#     line = line.rstrip()
+#     if not line.startswith("From: "):
+#         continue
+#     print(line)
+
+#USING IN TO SELECT LINES
 fhand = open('mbox.txt')
 for line in fhand:
     line = line.rstrip()
-    if not line.startswith("From: "):
+    if not '@bensonmakau' in line:
         continue
     print(line)
