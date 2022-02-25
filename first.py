@@ -305,8 +305,20 @@
 # print("Blastoff")
 
 #READ VALUES IN A LIST
-friends = ['Joseph','Glenn','Sally']
-print(friends[1])#output :Glenn
-#length of a list
-print(len(friends))
+# friends = ['Joseph','Glenn','Sally']
+# print(friends[1])#output :Glenn
+# #length of a list
+# print(len(friends))
 #strings in lists are not changeble
+
+#RANGE FUNCTION RETURNS A LIST OF
+# NUMBERS THAT RANGE FROM ZERO TO ONE LESS 
+# THAN THE PARAMETER
+# print(range(len(friends)))
+
+#looping using range(len(friends))
+# for friend in friends:
+#     print("Happy New Year: ", friend)
+# for i in range(len(friends)):
+#     friend = friends[i]
+#     print("Happy New Year: ", friend)
