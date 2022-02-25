@@ -349,14 +349,21 @@
 # print(2 not in some)print(9 in some)
 
 #SORTING LISTS
-friends = ['Joseph','Sally','Glenn']
-friends.sort()
-print(friends)
+# friends = ['Joseph','Sally','Glenn']
+# friends.sort()
+# print(friends)
 
 #FUNCTIONS TO MANIPULATE LISTS
-nums = [3,41,12,9,74,15]
-print(len(nums))#length of list
-print(max(nums))#max value in the list
-print(min(nums))#min value in the list
-print(sum(nums))#sum value of the list elements
-print(sum(nums)/len(nums))#average
+# nums = [3,41,12,9,74,15]
+# print(len(nums))#length of list
+# print(max(nums))#max value in the list
+# print(min(nums))#min value in the list
+# print(sum(nums))#sum value of the list elements
+# print(sum(nums)/len(nums))#average
+
+#SPLIT FUNCTION
+#SPLIT breaks a string into parts 
+# and produces a list of strings
+abc ="With Three Words"
+stuff = abc.split()
+print(stuff)
