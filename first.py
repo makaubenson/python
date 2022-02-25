@@ -237,8 +237,14 @@
 # print('Line Count:', count)
 
 #READING THE WHOLE FILE
+# fhand = open('mbox.txt')
+# inp = fhand.read()
+# print(len(inp))
+# #printing the first 20 characters
+# print(inp[:20])#read first 20 chars but not including the 20th
+
+#SEARCHING THROUGH A FILE
 fhand = open('mbox.txt')
-inp = fhand.read()
-print(len(inp))
-#printing the first 20 characters
-print(inp[:20])#read first 20 chars but not including the 20th
+for line in fhand:
+    if line.startswith("From: "):
+        print(line)
