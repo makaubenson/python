@@ -352,3 +352,11 @@
 friends = ['Joseph','Sally','Glenn']
 friends.sort()
 print(friends)
+
+#FUNCTIONS TO MANIPULATE LISTS
+nums = [3,41,12,9,74,15]
+print(len(nums))#length of list
+print(max(nums))#max value in the list
+print(min(nums))#min value in the list
+print(sum(nums))#sum value of the list elements
+print(sum(nums)/len(nums))#average
