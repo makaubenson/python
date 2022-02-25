@@ -250,8 +250,16 @@
 #         print(line)
 
 #SEARCHING THROUGH A FILE(FIXED)
+# fhand = open('mbox.txt')
+# for line in fhand:
+#     line = line.rstrip()
+#     if line.startswith("From: "):
+#         print(line)
+
+# SKIPPING WITH CONTINUE
 fhand = open('mbox.txt')
 for line in fhand:
     line = line.rstrip()
-    if line.startswith("From: "):
-        print(line)
+    if not line.startswith("From: "):
+        continue
+    print(line)
