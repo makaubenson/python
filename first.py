@@ -409,3 +409,8 @@ purse['candy']=3
 purse['tissues']=75
 print(purse)
 
+# Dictionary Literals
+#They use curly braces and have 
+# a list of key value pairs
+#You can make an empty dictionary using empty curly braces
+jjj ={'Chuck':1, 'fred':42,'jan':100}
