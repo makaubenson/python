@@ -336,9 +336,13 @@
 #append, count,extend, index, insert,pop,remove,reverse,sort
 
 #BUILDING A LIST FROM SCRATCH
-stuff = list()
-stuff.append('book')
-stuff.append('99')
-print(stuff)
-stuff.append('cookie')
-print(stuff)
+# stuff = list()
+# stuff.append('book')
+# stuff.append('99')
+# print(stuff)
+# stuff.append('cookie')
+# print(stuff)
+
+#IS SOMETHING IN THE LIST
+some = [1,9,21,10,16]
+print(9 in some)
