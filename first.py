@@ -322,3 +322,10 @@
 # for i in range(len(friends)):
 #     friend = friends[i]
 #     print("Happy New Year: ", friend)
+
+
+#CONCATINATING LISTS
+a= [1,2,3]
+b = [4,5,6]
+c = a + b
+print(c)
