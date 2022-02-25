@@ -307,3 +307,6 @@
 #READ VALUES IN A LIST
 friends = ['Joseph','Glenn','Sally']
 print(friends[1])#output :Glenn
+#length of a list
+print(len(friends))
+#strings in lists are not changeble
