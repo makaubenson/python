@@ -403,14 +403,25 @@
 #     print(wds[2])
 
 #DICTIONARIES
-purse = dict()
-purse['money']=12
-purse['candy']=3
-purse['tissues']=75
-print(purse)
+# purse = dict()
+# purse['money']=12
+# purse['candy']=3
+# purse['tissues']=75
+# print(purse)
 
 # Dictionary Literals
 #They use curly braces and have 
 # a list of key value pairs
 #You can make an empty dictionary using empty curly braces
-jjj ={'Chuck':1, 'fred':42,'jan':100}
+# jjj ={'Chuck':1, 'fred':42,'jan':100}
+# print(jjj)
+
+#Many Counters with a Dictionary
+counts = dict()
+names = ['csev','cwen','csev','zqian','cwen']
+for name in names:
+    if name not in counts:
+        counts[name]=1
+    else:
+        counts[name]=counts[name]+1
+print(counts)
