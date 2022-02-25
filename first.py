@@ -346,3 +346,4 @@
 #IS SOMETHING IN THE LIST
 some = [1,9,21,10,16]
 print(9 in some)
+print(2 not in some)
